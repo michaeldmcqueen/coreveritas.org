@@ -1,0 +1,20 @@
+.content-wrapper {
+  @include clearfix;
+}
+
+.wrap {
+  margin: 0 auto;
+}
+.content-wrap { @include clearfix; }
+
+main {
+  background-color: $main-bg;
+  @include clearfix;
+}
+
+section.content-wrapper {
+  //padding: 1.5em;
+  @include breakpoint($tablet, $no-query: '.no-mq') {
+    //padding: 2em;
+  }
+}
