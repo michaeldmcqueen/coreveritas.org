@@ -16,7 +16,10 @@
 	<link rel="stylesheet" href="/assets/css/style.css" media="screen" />
 	<link rel="stylesheet" href="/assets/css/print.css"  media="print" />
 	
+{% if page.url == "/index.html" %}
+	<link rel="stylesheet" href="/assets/css/flexslider.css" />
 
+{% endif %}
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 	<script>window.Modernizr || document.write('<script src="/assets/js/prod/modernizr-2.8.3.min.js"><\/script>')</script>
 

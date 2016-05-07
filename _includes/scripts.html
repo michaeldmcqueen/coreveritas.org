@@ -3,10 +3,36 @@
 <script type="text/javascript" src="/assets/js/prod/scripts.js"></script>
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
-<script src="/assets/js/prod/unslider-min.js"></script>
 
 
 {% if page.url == "/index.html" %}
+  
+  <script src="/assets/js/prod/jquery.flexslider-min.js"></script>
+
+  <script type="text/javascript">
+    $(window).load(function() {
+      // The slider being synced must be initialized first
+      $('#carousel').flexslider({
+        animation: "slide",
+        controlNav: false,
+        animationLoop: true,
+        slideshow: false,
+        itemWidth: 500,
+        itemMargin: 5,
+    maxItems:2,
+        asNavFor: '#slider'
+      });
+     
+      $('#slider').flexslider({
+        animation: "slide",
+        controlNav: false,
+        animationLoop: false,
+        slideshow: false,
+        sync: "#carousel",
+    startAt: 1
+      });
+    });
+  </script>
   <script type="text/javascript">
   $(document).ready(function() {
     $(".about-us-front").backstretch("{{ page.about-image-path }}");
@@ -14,6 +40,11 @@
 </script>
 {% endif %}
 
+<script type="text/javascript">
+  $(document).ready(function() {
+    $(".intro").backstretch("{{ page.header-image-path }}");
+  });
+</script>
 
 {% if site.google_analytics_tracking_id %}
 <!-- google analytics -->

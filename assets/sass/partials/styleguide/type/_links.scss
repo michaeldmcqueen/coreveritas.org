@@ -18,20 +18,17 @@ h1, h2, h3, h4, h5, h6 {
 div.btn {
   display: inline-block;
   a {
-    display: block;
     text-decoration: none;
-    font-weight: 500;
     text-align: center;
-    @include btn($color-one, #fff, darken($color-one, 5%), 2px, 95%);
+    display: inline-block;
+    @include btn($color-one, #fff, darken($color-one, 0%), 2px, 14px);
     font-family: $heading-font-family;
-    border-left:  solid 4px lighten($color-one, 10%);
-    border-top:  solid 4px lighten($color-one, 15%);
-    border-right:  solid 4px darken($color-one, 10%);
-    border-bottom:  solid 4px darken($color-one, 15%);
     @include trans(all, linear, .2s);
+    padding: .35em 1.75em .4em;
+    box-shadow: 2px 2px 9px 0px rgba(0,0,0,0.34);
+    border-radius: 100px;
     &:hover {
-      margin-top: -0.15em;
-      margin: -0.15em 0 0.15em;
+      background: lighten($color-one, 15%);
     }
   }
 }
