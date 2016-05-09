@@ -1,17 +1,13 @@
 ---
-layout: about
+layout: interior
 title: About
 subtitle: Subtitle goes here.
 permalink: /about/
-header-image-path: "/assets/images/about-img.jpg"
-history: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-purpose: "Excepteur sint occaecat cupidatat non proident, sunt in culpa. Corrupti quos dolores et quas molestias excepturi sint occaecati. Qui officia deserunt mollit anim id est laborum. Non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+header_image_path: "/assets/images/about-img.jpg"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+CoreVeritas is a 501c3 nonprofit that was founded on the belief that what we choose to talk about matters.  However, we often can not identify the core issue or know how to begin the conversation.  Unaddressed issues block conversation and stunt growth.
 
-Nihil molestiae consequatur, vel illum qui dolorem eum. Qui officia deserunt mollit anim id est laborum. Et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque. Et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque. Ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Qui officia deserunt mollit anim id est laborum. Et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque.
+We also believe that teams matter.  Yet, most leadership work is done on an individual level.  We have taken the approach that individual leadership is enhanced in the context of the team. 
 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa. Corrupti quos dolores et quas molestias excepturi sint occaecati. Qui officia deserunt mollit anim id est laborum. Non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-
-At vero eos et accusamus. Esse cillum dolore eu fugiat nulla pariatur. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+Together, we are facilitating the growth, the vitality of organizations and communities through meaningful conversations on the core issues and effective teams focused on these core issues.

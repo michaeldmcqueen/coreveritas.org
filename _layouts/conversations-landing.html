@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<main class=" subpage conversations">
+  <section class="content-wrapper wrap">
+    <h1 class="pagetitle">{{ page.title }}</h1>
+    <h2 class="subtitle">{{ page.subtitle }}</h2>
+  <div class="conversation-teaser-wrap">
+    {% for item in site.conversations %}
+      <div class="conversation-teaser">
+        <div class="videoWrapper">
+          <iframe src="https://player.vimeo.com/video/{{ item.video_trailer }}?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+        <h4>{{ item.title }}</h4>
+        <p>{{ item.description }}</p>
+        <div class="song">
+          <p class="song-title">Original Music By: <strong><a href="{{ page.song_link }}" class="song-link">{{ item.song_artist }}</a></strong></p>
+        </div>
+        <div class="btn download"><a href="{{ item.conversation_guide_path }}">Download Conversation Guide</a></div>
+        <div class="btn buy"><a href="{{ item.video_download }}">Purchase Video - {{ item.video_price }}</a></div>
+      </div>
+    {% endfor %}
+    </div>
+  </section>
+</main>

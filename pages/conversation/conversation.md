@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: conversations-landing
 title: Conversation
 subtitle: Subtitle goes here.
 permalink: /conversations/

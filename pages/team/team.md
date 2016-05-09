@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: interior
 title: Team
 subtitle: Subtitle goes here.
 permalink: /team/

@@ -1,9 +1,9 @@
 # Site settings
-title: Horizon Turf Nursery
-email: team@variantstudios.com
+title: CoreVeritas
+email: michaeldmcqueen@gmail.com
 description: 
-baseurl: "http://horizonturfnursery.com" # the subpath of your site, e.g. /blog/
-url: "http://horizonturfnursery.com/" # the base hostname & protocol for your site
+baseurl: "http://coreveritas.com" # the subpath of your site, e.g. /blog/
+url: "http://coreveritas.com/" # the base hostname & protocol for your site
 timezone: America/Denver
 
 # Site Author(s)
@@ -27,10 +27,16 @@ permalink: /blog/:year-:month-:day/:title/
 
 #Collections
 collections:
-  work:
+  conversations:
     output: true
-    permalink: /work/:title/
-
+    permalink: /conversations/:title/
+#Defaults
+defaults:
+  -
+    scope:
+      type: "conversations"
+    values:
+      layout: "conversations"
 # Blog Settings
 paginate: 3
 paginate_path: "/blog/page:num/"
