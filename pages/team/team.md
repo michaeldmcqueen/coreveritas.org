@@ -3,13 +3,9 @@ layout: interior
 title: Team
 subtitle: Subtitle goes here.
 permalink: /team/
-header-image-path: "/assets/images/sub-page-headers/Designs_By_Sundown_View.jpg"
+header_image_path: "/assets/images/sub-page-headers/team.jpg"
+quote:  Never doubt that a small group of thoughtful, committed people can change the world; indeed, it is the only thing that ever has.
+quote_attribute: Margaret Mead
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-Nihil molestiae consequatur, vel illum qui dolorem eum. Qui officia deserunt mollit anim id est laborum. Et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque. Et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque. Ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Qui officia deserunt mollit anim id est laborum. Et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque.
-
-Excepteur sint occaecat cupidatat non proident, sunt in culpa. Corrupti quos dolores et quas molestias excepturi sint occaecati. Qui officia deserunt mollit anim id est laborum. Non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-
-At vero eos et accusamus. Esse cillum dolore eu fugiat nulla pariatur. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+The CoreTeam Experience will help your team move to new heights of performance.  Our approach will accelerate the growth of the team through an action packed 4 day experience that will challenge you as an individual, galvanize your team, and create an executable plan for success.

@@ -5,6 +5,13 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
 
 
+  <script type="text/javascript">
+  $(document).ready(function() {
+    $(".intro").backstretch("{{ page.header_image_path }}");
+  });
+</script>
+
+
 {% if page.url == "/index.html" %}
   
   <script src="/assets/js/prod/jquery.flexslider-min.js"></script>
@@ -35,7 +42,7 @@
   </script>
   <script type="text/javascript">
   $(document).ready(function() {
-    $(".about-us-front").backstretch("{{ page.about-image-path }}");
+    $(".about-us-front").backstretch("{{ page.about_image_path }}");
   });
 </script>
 {% endif %}

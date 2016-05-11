@@ -1,13 +1,15 @@
 ---
 layout: interior
 title: About
-subtitle: Subtitle goes here.
+subtitle: We believe that there are core issues – specific to each individual, team, organization, and community that must be effectively addressed but are tough to even discuss.
 permalink: /about/
 header_image_path: "/assets/images/about-img.jpg"
+quote:  When health is absent, wisdom cannot reveal itself, art cannot manifest, strength cannot fight, wealth becomes useless, and intelligence cannot be applied.
+quote_attribute: Herophilus
 ---
 
-CoreVeritas is a 501c3 nonprofit that was founded on the belief that what we choose to talk about matters.  However, we often can not identify the core issue or know how to begin the conversation.  Unaddressed issues block conversation and stunt growth.
+Entire organizations and communities wrestle with issues that are barriers to becoming as good as they know they can be…vibrant, growing, healthy.
 
-We also believe that teams matter.  Yet, most leadership work is done on an individual level.  We have taken the approach that individual leadership is enhanced in the context of the team. 
+CoreVeritas is a 501(c)(3) non-profit focused on enhancing the capacity of individuals, teams, organizations, and communities to effectively thrive, grow…to be healthy. 
 
-Together, we are facilitating the growth, the vitality of organizations and communities through meaningful conversations on the core issues and effective teams focused on these core issues.
+We believe that there are core issues – specific to each individual, team, organization, and community that must be effectively addressed but are tough to even discuss.  We both facilitate the conversation that must take place as well as equip teams to lead that conversation and effectively address the issues facing their organization and community. 

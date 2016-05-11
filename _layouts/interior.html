@@ -3,15 +3,14 @@ layout: default
 ---
 <main class="about subpage">
   <div class="intro">
-    
-
+    <h1 class="pagetitle">{{ page.title }}</h1>
+    <h2 class="subtitle">{{ page.subtitle }}</h2>
   </div>
     <section class="content-wrapper wrap">
-      <h1 class="pagetitle">{{ page.title }}</h1>
-      <h2 class="subtitle">{{ page.subtitle }}</h2>
-      <div class="header-img">
-        <img src="{{ page.header_image_path }}" />
-      </div>
       {{ content }}
+      <div class="quote">
+        <blockquote>{{ page.quote }}</blockquote>
+        <p class="quote-by">{{ page.quote_attribute }}</p>
+      </div>
     </section>
 </main>
