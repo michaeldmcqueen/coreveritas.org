@@ -11,7 +11,9 @@ quote_attribute: Aftrican Proverb
 
 The CoreTeam Experience will help your team move to new heights of performance. Our approach will accelerate the growth of the team through an action packed 4 day experience that will challenge you as an individual, galvanize your team, and create an executable plan for success.
 
-You will experience key principles of team performance through hands on exercises and group assignments.&nbsp; You will also experience the power of the group to accomplish more than what one individual could do alone.
+You will experience key principles of team performance through hands on exercises and group assignments.&nbsp;
+
+You will also experience the power of the group to accomplish more than what one individual could do alone.
 
 You will have fun!&nbsp; The program is fast paced, interactive, and full of highly accomplished speakers and team coaches.
 
