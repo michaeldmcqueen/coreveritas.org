@@ -1,10 +1,11 @@
 ---
-layout: page
-title: "Contact"
-subtitle: "Subtitle goes here."
+layout: interior
 permalink: /contact/
-header-image-path: "/assets/images/sub-page-headers/hill-front-twilight-a.jpg"
+title: "Contact"
+subtitle: "Leave us a message and we will get back to you ASAP."
+header_image_path: "/assets/images/sub-page-headers/contact.jpg"
+quote:  If you want to go fast, go alone.  If you want to go far, go together.
+quote_attribute: African Proverb
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
 {% include contact-form.html %}

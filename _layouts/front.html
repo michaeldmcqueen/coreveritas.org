@@ -5,25 +5,21 @@ layout: default
   <div class="preface">
     <div class="flexslider" id="slider"> 
        <ul class="slides">
-        <li data-thumb="">
-          <div class="videoWrapper">
-            <iframe src="https://player.vimeo.com/video/153372319?color=ffffff&title=0&byline=0&portrait=0" width="640" height="268" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-          </div>
-        </li>
-        <li data-thumb="">
-          <div class="videoWrapper">
-            <iframe src="https://player.vimeo.com/video/165042303?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-          </div>
-        </li>
-        <li data-thumb="">
-          <div class="videoWrapper">
-            <iframe src="https://player.vimeo.com/video/164568257?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-          </div>
-        </li>
+         {% for item in site.conversations %}
+          {% if item.show_on_slider == true %}
+            <li data-thumb="">
+                <div class="videoWrapper">
+                  <iframe src="https://player.vimeo.com/video/{{ item.video_trailer }}?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+              </li>
+            {% endif %}
+          {% endfor %}
       </ul>
     </div>
-  
-  <h2>Videos That Matter</h2>
+    <div class="preface-text">
+      <h2>Videos That Matter</h2>
+      <a class="editable conversation-link" href="/conversations">Learn more about our Videos That Matter Campaign</a>
+    </div>
   </div>
     <section class="content-wrapper wrap">
       <div class="team-conversation">
@@ -37,13 +33,13 @@ layout: default
         </div>
         <div class="col col-2 team editable">
           <div class="block-wrapper">
-            <h3>Teak</h3>
+            <h3>Team</h3>
             <p>Curabitur ipsum quam, finibus non sapien ac, condimentum faucibus lacus. Nunc ullamcorper, velit feugiat ullamcorper faucibus, ante nulla eleifend nisi, id maximus velit nibh ac ex. Phasellus in dui condimentum odio tempus fermentum. Duis ut massa diam. Donec sagittis diam dolor, laoreet egestas dolor suscipit at.</p>
             <div class="btn"><a href="/team">Learn More</a></div>
           </div>
         </div>
       </div>
-      <div class="participate-call"><a href="/participate">JOIN US AT OUR UPCOMING EVENTS <img src="/assets/images/arrow-light.png" alt=""></a></div> 
+      <div class="participate-call editable"><a href="http://coreteamexperience.com/" target="_blank">JOIN US AT OUR UPCOMING EVENTS <img src="/assets/images/arrow-light.png" alt=""></a></div> 
       <div class="about-us-front">
         <div class="editable">
           <h4>About Us</h4>
