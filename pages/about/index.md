@@ -1,10 +1,10 @@
 ---
 layout: interior
 permalink: /about/
-title: About Us.
-subtitle: We believe that there are core issues – specific to each individual, team, organization, and community that must be effectively addressed but are tough to even discuss.
-header_image_path: "/assets/images/about-img.jpg"
-quote:  When health is absent, wisdom cannot reveal itself, art cannot manifest, strength cannot fight, wealth becomes useless, and intelligence cannot be applied.
+title: About Us
+subtitle: 'Entire organizations and communities wrestle with issues that are barriers to becoming as good as they know they can be... vibrant, growing, healthy!'
+header_image_path: /assets/images/about-img.jpg
+quote: 'When health is absent, wisdom cannot reveal itself, art cannot manifest, strength cannot fight, wealth becomes useless, and intelligence cannot be applied.'
 quote_attribute: Herophilus
 ---
 
