@@ -1,7 +1,7 @@
 ---
 layout: interior
 permalink: /team/
-title: Team.
+title: Team
 subtitle: Help your team move to new heights of performance.
 header_image_path: /assets/images/sub-page-headers/team.jpg
 quote: 'If you want to go fast, go alone.  If you want to go far, go together.'
