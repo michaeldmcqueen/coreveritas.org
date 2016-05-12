@@ -15,11 +15,9 @@ You will experience key principles of team performance through hands on exercise
 
 You will have fun!&nbsp; The program is fast paced, interactive, and full of highly accomplished speakers and team coaches.
 
-## **INDIVIDUAL LEADERSHIP**
-
-&nbsp;
-
 ## &nbsp;
+
+## **INDIVIDUAL LEADERSHIP**
 
 You will learn about yourself.&nbsp; The first step towards leadership and improved team dynamics is understanding how you show up, what your blind spots might be, and what strengths you have that your team needs.
 
