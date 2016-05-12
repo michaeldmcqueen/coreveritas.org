@@ -3,7 +3,7 @@ title: Stronger Than Our Fears
 video_trailer: 159821179
 video_download: 159821179
 video_price: $1.99
-description: 'Rtiam lobortis dictum felis, in elementum purus. Fusce eu velit vehicula, accumsan odio id, pharetra ipsum. Mauris vulputate, arcu a convallis eleifend, ligula augue venenatis lectus, ac vestibulum nisl nulla vitae quam. '
+description: Fear is what prevents us from starting many important conversations.  Facing fear is the first step in launching the Videos That Matter Campaign.
 song_title: Stronger Than Our Fears
 song_artist: Shel
 song_link: 'http://www.shelmusic.com'
@@ -13,4 +13,3 @@ weight: 3
 ---
 
 
-Fear is what prevents us from starting many important conversations.&nbsp; Facing fear is the first step in launching the Videos That Matter Campaign.
