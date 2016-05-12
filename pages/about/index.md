@@ -8,8 +8,9 @@ quote: 'When health is absent, wisdom cannot reveal itself, art cannot manifest,
 quote_attribute: Herophilus
 ---
 
-Entire organizations and communities wrestle with issues that are barriers to becoming as good as they know they can be…vibrant, growing, healthy.
 
-CoreVeritas is a 501(c)(3) non-profit focused on enhancing the capacity of individuals, teams, organizations, and communities to effectively thrive, grow…to be healthy. 
+CoreVeritas is a 501(c)(3) non-profit focused on enhancing the capacity of individuals, teams, organizations, and communities to effectively thrive, grow…to be healthy.
 
-We believe that there are core issues – specific to each individual, team, organization, and community that must be effectively addressed but are tough to even discuss.  We both facilitate the conversation that must take place as well as equip teams to lead that conversation and effectively address the issues facing their organization and community. 
+We believe that there are core issues - specific to each individual, team, organization, and community - that must be effectively addressed but are tough to even discuss.
+
+We both facilitate the conversation that must take place as well as equip teams to lead that conversation and effectively address the issues facing their organization and community.
