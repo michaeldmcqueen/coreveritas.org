@@ -14,3 +14,7 @@ CoreVeritas is a 501(c)(3) non-profit focused on enhancing the capacity of indiv
 We believe that there are core issues - specific to each individual, team, organization, and community - that must be effectively addressed but are tough to even discuss.
 
 We both facilitate the conversation that must take place as well as equip teams to lead that conversation and effectively address the issues facing their organization and community.
+
+**Our Vision:** &nbsp;Vibrant individuals, teams, organizations that result in healthy communities.
+
+**Our Mission:**&nbsp;To effectively reach out to our communities with impactful messages and develop high performing individuals and teams capable of being the community change agents.
