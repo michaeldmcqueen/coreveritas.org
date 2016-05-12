@@ -3,7 +3,7 @@ title: CoreVeritas
 email: michaeldmcqueen@gmail.com
 description: 
 baseurl: "http://coreveritas.com" # the subpath of your site, e.g. /blog/
-url: "http://coreveritas.com/" # the base hostname & protocol for your site
+url: "http://coreveritas.com" # the base hostname & protocol for your site
 timezone: America/Denver
 
 # Site Author(s)
