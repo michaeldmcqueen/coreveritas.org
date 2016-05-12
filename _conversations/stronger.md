@@ -1,5 +1,5 @@
 ---
-title: Stronger Than Our Fears
+title: Stronger Than My Fears
 video_trailer: 159821179
 video_download: 159821179
 video_price: $1.99
