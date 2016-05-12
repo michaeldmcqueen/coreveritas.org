@@ -1,7 +1,7 @@
 ---
 layout: interior
 permalink: /about/
-title: About Us.
+title: About Us
 subtitle: 'Entire organizations and communities wrestle with issues that are barriers to becoming as good as they know they can be... VIBRANT, GROWING, HEALTHY!'
 header_image_path: /assets/images/about-img.jpg
 quote: 'When health is absent, wisdom cannot reveal itself, art cannot manifest, strength cannot fight, wealth becomes useless, and intelligence cannot be applied.'
