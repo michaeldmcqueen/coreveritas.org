@@ -43,3 +43,24 @@
     }
   }
 }
+
+.coming-soon {
+  h6 {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 1em;
+    color: #5F5F5F;
+    border-top: 1px solid #ccc;
+    padding-top: 2em;
+
+  }
+  .coming-soon-info {
+    font-size: 0.9em;
+  }
+  div.btn, .btn a {
+    cursor: not-allowed !important;
+  }
+  .btn {
+    opacity: 0.5;
+  }
+}
