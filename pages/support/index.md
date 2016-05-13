@@ -9,7 +9,7 @@ quote_attribute: Herophilus
 ---
 
 
-As CoreVeritas is a 501(c)(3) non-profit organization, your contribution is tax deductible. &nbsp;We thank you for helping to make your communities VIBRANT, GROWING, HEALTHY!&nbsp;
+&nbsp;
 
 Thanks to our Sponsors:
 
