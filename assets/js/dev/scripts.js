@@ -12,7 +12,7 @@ $(document).ready(function() {
   //   });
 
 
-  $('.hamburger-menu').on('click touchstart', function() {
+  $('.hamburger-menu').on('click', function() {
       $('.bar').toggleClass('animate');
       $('.menu').toggleClass('show');
     });
