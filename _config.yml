@@ -1,17 +1,15 @@
 # Site settings
 title: CoreVeritas
-email: michaeldmcqueen@gmail.com
+email: admin@coreveritas.org
 description: 
-baseurl: "http://coreveritas.com" # the subpath of your site, e.g. /blog/
-url: "http://coreveritas.com" # the base hostname & protocol for your site
+baseurl: "http://coreveritas.org" # the subpath of your site, e.g. /blog/
+url: "http://coreveritas.org" # the base hostname & protocol for your site
 timezone: America/Denver
 
 # Site Author(s)
 author:
-  name: Brent Robbins
-  email: brent@variantstudios.com
   name: Michael McQueen
-  email: michael@variantstudios.com
+  email: michaeldmcqueen@gmail.com
 
 
 # Build settings
