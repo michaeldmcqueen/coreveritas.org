@@ -1,5 +1,5 @@
 ---
-layout: interior
+layout: donate
 permalink: /support-us/
 title: Support Us
 subtitle: Learn more about the benefits of supporting us below
