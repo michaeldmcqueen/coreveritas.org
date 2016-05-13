@@ -17,8 +17,6 @@ You will also experience the power of the group to accomplish more than what one
 
 You will have fun!&nbsp; The program is fast paced, interactive, and full of highly accomplished speakers and team coaches.
 
-## &nbsp;
-
 ## **INDIVIDUAL LEADERSHIP**
 
 You will learn about yourself.&nbsp; The first step towards leadership and improved team dynamics is understanding how you show up, what your blind spots might be, and what strengths you have that your team needs.
@@ -31,4 +29,4 @@ You will learn about yourself.&nbsp; The first step towards leadership and impro
 
 You will develop a plan for when you return to your school or organization so that the time spent in the CoreTeam Experience has a direct impact on your world and what your team wants to accomplish.
 
-<div class="btn">Participate in <a href="http://coreteamexperience.com/" target="blank">CoreTeam Experience</a></div>
+<div class="btn"><a href="http://coreteamexperience.com/" target="blank">Participate in CoreTeam Experience</a></div>
