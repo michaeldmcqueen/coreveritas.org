@@ -11,6 +11,11 @@ footer.wrap {
   max-width: 1200px;
   margin: 0 auto;
   .left {
+    a {
+      display: inline-block;
+      margin-right: .5em;
+      margin-bottom: 1em;
+    }
     @include breakpoint($tablet, $no-query: '.no-mq') {
       @include grid-span(6, 1, $gutter: 0);
     }
