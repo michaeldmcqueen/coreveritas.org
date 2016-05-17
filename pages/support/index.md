@@ -13,6 +13,6 @@ quote_attribute: Herophilus
 
 Thanks to our Sponsors:
 
-![](/uploads/versions/downtown-artery---x----724-300x---.png)![](/uploads/versions/btn-advisors---x----285-72x---.jpg)
+[![](/uploads/versions/downtown-artery---x----724-300x---.png)](downtownartery.com)[![](/uploads/versions/btn-advisors---x----285-72x---.jpg)](http://btnadvisors.com/)
 
 {% include paypal.html %}
