@@ -54,6 +54,6 @@ typekit: "kao0apj"
 facebook: 
 
 # Google Analytics
-google_analytics_tracking_id: "UA-41553392-1"
+google_analytics_tracking_id: "UA-77908478-2"
 
 exclude: ["vendor","node_modules","package.json","Gemfile","gulpfile.js","*.scss"]
