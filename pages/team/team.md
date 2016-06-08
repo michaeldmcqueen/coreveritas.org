@@ -29,4 +29,4 @@ You will learn about yourself.&nbsp; The first step towards leadership and impro
 
 You will develop a plan for when you return to your school or organization so that the time spent in the CoreTeam Experience has a direct impact on your world and what your team wants to accomplish.
 
-<div class="btn"><a href="http://coreteamexperience.com/" target="blank">Participate in CoreTeam Experience</a></div>
+<div class="btn large"><a href="http://coreteamexperience.com/" target="blank">Participate in CoreTeam Experience</a></div>

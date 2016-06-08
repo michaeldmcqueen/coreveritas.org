@@ -32,3 +32,11 @@ div.btn {
     }
   }
 }
+
+
+div.btn.large {
+  display: inline-block;
+  padding-bottom: 1em;
+  padding-right: 1em;
+  font-size: 120%;
+}
