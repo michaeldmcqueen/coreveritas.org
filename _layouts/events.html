@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<main class="about subpage events">
+  <img src="{{ page.header_image_path }}" class="event-header" alt="">
+    <section class="content-wrapper wrap">
+      <h1 class="pagetitle">{{ page.title }}</h1>
+    <h2 class="subtitle">{{ page.subtitle }}</h2>
+      {{ content }}
+      <div class="quote">
+        <blockquote>{{ page.quote }}</blockquote>
+        <p class="quote-by">{{ page.quote_attribute }}</p>
+      </div>
+    </section>
+</main>

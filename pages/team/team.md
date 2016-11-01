@@ -1,32 +1,18 @@
 ---
-layout: interior
-permalink: /team/
-title: Team
-subtitle: CoreTeams equips individuals to lead conversations and be change agents.
-header_image_path: /assets/images/sub-page-headers/team.jpg
+layout: events
+permalink: /events/
+title: Shel
+subtitle: With special guest Dave Tamkin.
+header_image_path: /assets/images/shel.jpg
 quote: 'If you want to go fast, go alone.  If you want to go far, go together.'
 quote_attribute: Aftrican Proverb
 ---
 
+The high-altitude town of Fort Collins, Colorado is abundant in bicycles, awash in craft beer and rich in arts of all kinds. Understanding the town’s unique cultural brew begins (but only begins) to explain the novel sound of SHEL. Four sisters, raised in an atmosphere of creative freedom and diligent study, have honed their musical skills surgically sharp and blended their personalities and visions into a unified whole. They are a vocal group with outstanding instrumental capabilities and an instrumental group with a thrilling vocal attack. From their fetching, unpredictable songs to their whimsical, hand-made top hats, SHEL makes a profound impression, something they are doing to growing crowds and critical acclaim.
 
-The CoreTeam Experience will help your team move to new heights of performance. Our approach will accelerate the growth of the team through an action packed 4 day experience that will challenge you as an individual, galvanize your team, and create an executable plan for success.
+Sisters Sarah, Hannah, Eva and Liza were born within five years of each other. Raised and home-schooled by a professional songwriter father and an artist mother, they dove into music young. Hannah was first to take classical lessons on piano. Then it was Sarah on violin, Liza on harp and Eva on mandolin. Liza switched to the drums upon discovery of her passion for polyrhythm. Then in the early 2000s, they started working up and performing songs with their father. Over time, Eva stepped forward as the lead vocalist. Andrew Holbrook with SHEL became SHEL with Andrew Holbrook—and then just SHEL.
 
-You will experience key principles of team performance through hands on exercises and group assignments.&nbsp;
+Chicago Singer/Songwriter, Dave Tamkin, currently resides in Boulder, CO. He has created his own unique style of rhythmic-acoustic rock that's based around a fresh musical vision. His shows vary from intimate solo acoustic performances to a full band experience (DTCO) encapsulating a mixture of personal lyrics and skilled songwriting set against a high-energy percussive backbone.
+He's shared the stage with Guster, The Samples, Rusted Root, Donavon Frankenreiter, Butch Walker, Freddy Jones Band, Eric Hutchinson, Willy Porter, The Violent Femmes, and Peter Mulvey to name a few. Tamkin has a style that's hard to resist. His lyrics are unabashedly honest and his passion for playing is undying.
 
-You will also experience the power of the group to accomplish more than what one individual could do alone.
-
-You will have fun!&nbsp; The program is fast paced, interactive, and full of highly accomplished speakers and team coaches.
-
-## **INDIVIDUAL LEADERSHIP**
-
-You will learn about yourself.&nbsp; The first step towards leadership and improved team dynamics is understanding how you show up, what your blind spots might be, and what strengths you have that your team needs.
-
-## TEAM EFFECTIVENESS
-
-![](file:///C:/Users/Tamra/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png)You will also learn about your teammates, how to resolve conflict effectively, how to become more accountable to each other, and how to succeed in your team’s objectives.
-
-## CONTEXT
-
-You will develop a plan for when you return to your school or organization so that the time spent in the CoreTeam Experience has a direct impact on your world and what your team wants to accomplish.
-
-<div class="btn large"><a href="http://coreteamexperience.com/" target="blank">Participate in CoreTeam Experience</a></div>
+<div class="btn large"><a href="https://www.ticketfly.com/purchase/event/1343123?utm_medium=bks" target="blank">Buy Tickets</a></div>

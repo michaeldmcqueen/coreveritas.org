@@ -1,7 +1,7 @@
 - text: Conversations
   url: /conversations/
-- text: Teams
-  url: /team/
+- text: Events
+  url: /events/
 - text: About
   url: /about/
 - text: Contact
