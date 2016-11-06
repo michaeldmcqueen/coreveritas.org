@@ -9,7 +9,7 @@ quote_attribute: Herophilus
 ---
 
 
-CoreVeritas is a 501(c)(3) non-profit focused on enhancing the capacity of individuals, teams, organizations, and communities to effectively thrive, grow…to be healthy.
+CoreCommunities is a 501(c)(3) non-profit focused on enhancing the capacity of individuals, teams, organizations, and communities to effectively thrive, grow…to be healthy.
 
 We believe that there are core issues - specific to each individual, team, organization, and community - that must be effectively addressed but are tough to even discuss.
 

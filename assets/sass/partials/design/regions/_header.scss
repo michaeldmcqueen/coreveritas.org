@@ -27,7 +27,10 @@ header.wrap {
 .logo {
   text-align: center;
   @include breakpoint($tablet, $no-query: ".no-mq") {
-      @include grid-span(3,1,$gutter:0);
+      @include grid-span(2,1,$gutter:0);
+  }
+   @include breakpoint($desktop, $no-query: ".no-mq") {
+      @include grid-span(1.2,1,$gutter:0);
   }
 }
 
