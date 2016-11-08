@@ -1,13 +1,13 @@
 ---
-title: Stronger Than My Fears
-video_trailer: 'https://www.youtube.com/embed/uBJxnl2deTM'
+title: Honey Jars
+video_trailer: 'https://www.youtube.com/embed/yysqd9w-ZPw'
 video_download: 159821179
 video_price: $1.99
-description: Fear is what prevents us from starting many important conversations.  Facing fear is the first step in launching the Videos That Matter Campaign.
-song_title: Stronger Than Our Fears
-song_artist: Shel
-song_link: 'http://www.shelmusic.com'
-conversation_guide_path: /assets/images/sub-page-headers/Designs_By_Sundown_View.jpg
+description: 'As people age, it can get harder to stay connected to communities and loved ones. Isolation in the elderly can have serious mental, physical, and emotional effects.'
+song_title:
+song_artist:
+song_link:
+conversation_guide_path:
 show_on_slider: true
 weight: 3
 ---
