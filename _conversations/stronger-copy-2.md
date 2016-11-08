@@ -1,12 +1,12 @@
 ---
-title: Count To 3
-video_trailer: 'https://www.youtube.com/embed/MsOk3S8rfdM'
+title: Demons and You
+video_trailer: 'https://www.youtube.com/embed/IlrJx_n6FDk'
 video_download: 159821179
 video_price: $1.99
-description: Abuse can come in all shapes and sizes. You never know who could be dealing with it.
-song_title: Count To Three
-song_artist: Nate Botsford
-song_link: 'http://www.natebotsford.com/'
+description: We all have our demons. What matters is how we deal with them.
+song_title: Demons and You
+song_artist: Dave Tamkin
+song_link: 'http://www.davetamkin.com/'
 conversation_guide_path:
 show_on_slider: false
 weight: 3
