@@ -1,0 +1,45 @@
+---
+title: Collaborators
+heading: Collaborators
+---
+
+<section class="diagonal ">
+	<div class="container">
+	    <p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_clients/" class="btn"><strong>&#9998;</strong>Manage Collabs</a></p>
+		<div class="collab-grid">
+			{% for client in site.clients %}
+				<div class="collab-grid--item">
+						<h2>{{ client.name }}</h2>
+						<div class="videoWrapper">
+						  {{ client.video_embed }}
+						</div>
+					  
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>
+<section class="diagonal patterned">
+		<div class="container">
+			<p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff/" class="btn"><strong>&#9998;</strong>Manage BOD</a></p>
+				<h3 class="bod-section-title">Board of Directors</h3>
+				<div class="bod-grid cf">
+				  {% assign staff_members = site.staff_members  | sort:"order" %}
+
+					{% for staff in staff_members %}
+						{% if staff.bod != Yes %}
+						<div class="bod-item cf">
+						  <img src="{{staff.image_path}}" />
+						 <div class="bod-details"> 
+					      <h4>{{staff.position}}</h4>
+						  <h2>{{ staff.name }}</h2>
+						  <a href="{{staff.website}}">Learn More</a>
+						</div>
+						</div>
+						{% endif %}
+					{% endfor %}
+				</div>
+	
+		</div>
+	</section>
+

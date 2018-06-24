@@ -1,0 +1,408 @@
+.container,
+.text-container {
+	margin: 0 auto;
+	position: relative;
+	padding: 0 20px;
+}
+
+.text-container {
+	max-width: 1000px;
+}
+
+.container {
+	max-width: 1000px;
+}
+.container-wide {
+	@media #{$mid-point} {
+	  max-width: 85%;
+	}
+}
+
+@keyframes dropIn {
+    from {margin-top: -50px;}
+    to {margin-top:-20px;}
+}
+@keyframes dropInFade {
+    from {margin-top: -10px;margin-bottom:10px;opacity: 0;}
+    to {margin-top:0px;margin-bottom:0;opacity: 1;}
+}
+header {
+	color: #fff;
+	padding: 20px 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+
+	a {
+		color: #fff;
+		text-decoration: none;
+		z-index: 1;
+		position: relative;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	.company-name {
+		font-size: 1.7em;
+	}
+	.logo {
+	   background: #fff;
+	   padding: 29px;
+	   display: inline-block;
+	   position: relative;
+	   z-index: 1;
+	   animation-name: dropIn;
+	   animation-duration: .75s;
+	   animation-timing-function: ease-in;
+	   animation-fill-mode: forwards;
+	   img {
+		   opacity: 0;
+		animation-name: dropInFade;
+		animation-duration: 1s;
+		animation-delay: .25s;
+		animation-timing-function: ease-in;
+		animation-fill-mode: forwards;
+	   }
+	}
+}
+
+.content {
+	background: #fff;
+	padding: 1px 0 0 0;
+	position: relative;
+	
+}
+
+.screenshot{
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	box-shadow: 0 1px 0 #ccc,0 1px 1px #eee;
+	border-radius: 2px;
+	padding: 20px 0 0;
+	background: url($screenshot-buttons) 4px 4px no-repeat #DDD;
+	box-shadow: 0px 1px 2px rgba(0,0,0,0.1);
+}
+
+section {
+	padding: 175px 0;
+	background: #fff;
+	margin-top: -2px;
+
+	&.diagonal {
+		-webkit-transform: skewY(-$section-rotation);
+		-moz-transform: skewY(-$section-rotation);
+		-ms-transform: skewY(-$section-rotation);
+		transform: skewY(-$section-rotation);
+
+		> div, > video  {
+			-webkit-transform: skewY($section-rotation);
+			-moz-transform: skewY($section-rotation);
+			-ms-transform: skewY($section-rotation);
+			transform: skewY($section-rotation);
+		}
+	}
+
+	&.hero {
+
+		color: #ffffff;
+		background: $brand-color;
+		text-align: left;
+		margin-top: -100px;
+    padding-top: 250px;
+    padding-bottom: 40px;
+		@media #{$tablet} {
+			padding-top: 350px;
+			padding-bottom: 100px;
+		}
+		h2, p {
+			max-width: 90%;
+		}
+
+		h2 {
+			font-size: 2.5rem;
+			@media #{$tablet} {
+				font-size: 3.5rem;
+			}
+		}
+
+		p {
+			font-size: 1.2rem;
+			color: #fff;
+			@media #{$tablet} {
+				font-size: 1.8rem;
+			}
+		}
+
+		a:not(.button) {
+			color: #ffffff;
+			font-style: italic;
+			text-shadow: none;
+		}
+		a {
+			text-shadow:none;
+		}
+		video {
+			position: fixed;
+			top: 0;
+			@media #{$lg-desktop} {
+			width: calc(100% + 120px);
+			}
+		// 	left: 50%;
+		// 	min-width: 100%;
+		// 	min-height: 100%;
+		// 	width: auto;
+		// 	height: auto;
+		// 	z-index: -100;
+		// 	transform: translateX(-50%) translateY(-50%);
+		//  background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+		//   background-size: cover;
+		//   transition: 1s opacity;
+		}
+	}
+  &.home-hero {
+		h2 {
+			text-shadow: 1px 2px 20px rgba(0,0,0,0.65);
+		}
+		p {
+			text-shadow: 1px 2px 20px rgba(0,0,0,0.65);
+		}
+	}
+	&.alternate {
+		background: #eee;
+	}
+}
+
+.button {
+	padding: 13px 38px;
+	border-radius: 3px;
+	display: inline-block;
+	color: $brand-color;
+	text-decoration: none;
+	cursor: pointer;
+	margin: 20px 0 0 0;
+	border: 1px solid #fff;
+	background: #fff;
+	text-decoration: none !important;
+
+	&:hover {
+		background: rgba(255, 255, 255, 0.3);
+		color: #fff;
+	}
+
+	&:active {
+		opacity: 1;
+		background: rgba(255, 255, 255, 0.1);
+		color: #fff;
+		transform: translateY(1px);
+	}
+}
+
+.halves {
+	display: flex;
+	flex-flow: wrap;
+	align-items: center;
+
+	> div {
+		flex: 1 0 100%;
+	}
+
+	@media #{$tablet} {
+		> div {
+			flex: 1;
+		}
+
+		> div + div {
+			padding-left: 20px;
+			margin: 0;
+		}
+	}
+}
+
+.aligned-top {
+	align-items: flex-start;
+}
+
+.image-grid {
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-flow: wrap;
+	text-align: center;
+	margin: 0 -20px;
+
+	li {
+		padding: 0;
+		box-sizing: border-box;
+		width: 100%;
+		position: relative;
+		overflow: hidden;
+		margin: 20px;
+		border-radius: 5px;
+		text-align: left;
+		border: 1px solid $brand-color;
+		line-height: 0;
+        background: #fff;
+		@media #{$tablet} {
+			flex: 1 1 50%;
+		}
+
+		@media #{$desktop} {
+			flex: 1 1 30%;
+		}
+
+		img {
+			min-width: 85%;
+		}
+
+		> a:hover {
+			opacity: 0.9;
+		}
+	}
+
+	.square-image {
+		height: 320px;
+
+		img {
+			//min-height: 100%;
+			width: 85%;
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translateX(-50%) translateY(-50%);
+		}
+	}
+
+	.details {
+		line-height: 1.2;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background: rgba(0, 0, 0, 0.5);
+		padding: 20px;
+	}
+
+	.name {
+		font-size: 1.3rem;
+		color: $brand-color;
+	}
+
+	.position {
+		margin-top: 5px;
+		color: #fff;
+	}
+
+	.filler {
+		border: 0;
+	}
+}
+
+.image-list,
+.image-list li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.patterned {
+	background: #222 url($pattern);
+
+	&,
+	p {
+		color: #fefefe;
+	}
+}
+
+
+.calls-wrap {
+	padding: 50px 0 175px;
+}
+.calls {
+	@media #{$desktop} {
+	  display: flex;
+	}
+	.diagonal {
+		-webkit-transform: skewY(-5deg);
+    -moz-transform: skewY(-5deg);
+    -ms-transform: skewY(-5deg);
+    transform: skewY(-5deg);
+		@media #{$desktop} {
+			width: 33.3%;
+			display: flex;
+			margin: 0 10px;
+		}
+	}
+	.reverse-diagonal {
+		background: #efefef;
+		padding: 2rem;
+	}
+	img {
+		-webkit-transform: skewY(5deg);
+    -moz-transform: skewY(5deg);
+    -ms-transform: skewY(5deg);
+		transform: skewY(5deg);
+		max-width: 80%;
+		display: block;
+		margin: 1rem auto 2rem;
+	}
+	.one {
+		@media #{$tablet} {
+      margin-top: 6%;
+		}
+	}
+	.two {
+		@media #{$tablet} {
+		  margin-top: 3%;
+
+		}
+	}
+	.three {
+		@media #{$tablet} {
+		}
+	}
+}
+
+
+.collab-grid--item {
+	padding-bottom: 5rem;
+	h2 {
+		font-weight: 700;
+	}
+}
+
+.bod-grid {
+	.bod-item {
+		margin-bottom: 3rem;
+    img {
+			float: left;
+			width: 150px;
+			margin-right: 1rem;
+			clip-path: polygon(0% 7%, 100% 0%, 100% 92%, 0% 100%);
+			@media #{$tablet} {
+				width: 200px;
+				margin-right: 2rem;
+			}
+		}
+		.bod-details {
+			overflow: hidden;
+			h2 {
+				margin-bottom: 15px;
+			}
+			a {
+				font-weight: 700;
+			}
+			h4 {
+				font-size: 1.1rem;
+			}
+		}
+	}
+}
+.bod-section-title {
+	margin-bottom: 4rem;
+  font-size: 2rem;
+}

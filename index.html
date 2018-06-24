@@ -1,5 +1,82 @@
 ---
-layout: front
-title: "CoreCommunities"
-about_image_path: "/assets/images/about-img.jpg"
+title: Core Communities
 ---
+
+<section class="hero home-hero diagonal">
+		<video poster="/videos/core.jpg" id="bgvid" playsinline autoplay muted loop>
+		  <source src="/videos/core.webm" type="video/webm">
+		  <source src="/videos/core.mp4" type="video/mp4">
+		  </video>
+	<div class="container">
+		<h2 class="editable">Join the Conversation</h2>
+		<p class="subtext editable">Expand knowledge, facilitate conversation, and inspire change within communities around factors that impact wellness.</p>
+		<p><a class="button alt" href="{{ site.baseurl }}/join-us">Join Us</a></p>
+	</div>
+</section>
+
+<section class="diagonal calls-wrap">
+	<div class="container container-wide calls">
+		<div class="one diagonal">
+			<div class="reverse-diagonal">
+				<img src="/images/mission.png" />
+				<h3 class="editable  accent">Misson</h3>
+				<p class="editable">The mission of Core Communities  is to expand knowledge, facilitate conversation, and inspire change within communities around factors that impact wellness. </p>
+		  </div>
+		</div>
+		<div class="two diagonal">
+			<div class="reverse-diagonal">
+				<img src="/images/vision.png" />
+				<h3 class="editable  accent">Vision</h3>
+				<p class="editable">The vision of Core Communities is that communities are empowered and driven by their members to pursue a shared goal of fostering wellness through collaborative conversation and action. </p>
+			</div>
+		</div>
+		<div class="three diagonal">
+			<div class="reverse-diagonal">
+				<img src="/images/Content.png" />
+				<h3 class="editable  accent">Content</h3>
+				<p class="editable">Core Communities exists as a parent organization to power projects that strengthen community wellness initiatives. <a href="http://videosthatmatter.org/">Videos That Matter</a> is Core Communities' first collaborative venture that combines film, music, and animation to inspire a new approach to discussions around wellness. </p>
+			</div>
+		</div>
+		
+	</div>
+</section>
+
+<section class="diagonal patterned">
+	<div class="container halves">
+		<div>
+			<p class="editable">Core Communities is a 501 (c) (3) organization founded in (insert year) in order to increase public knowledge and involvement in community wellness. We believe that community wellness is a collective effort that begins with conversation and collaboration, which is why we created <a href="http://videosthatmatter.org">Videos That Matter</a> to convey a visually compelling story about the needs in communities.  </p>
+		</div>
+		<div>
+			<p class="editable"><a href="http://videosthatmatter.org"><img src="/images/VTM_shirt_white.png" /></a></p>
+
+		</div>
+	</div>
+</section>
+<section class="diagonal">
+		<div class="container">
+			<form action="{{ site.baseurl }}/contact-success/" method="post" id="contact" class="contact-form">
+				<input type="hidden" name="_to" value="michaeldmcqueen@gmail.com" />
+				<input type="text" name="_gotcha" style="display: none;" />
+	
+				<div class="halves">
+					<div>
+						<label for="name">First Name</label>
+						<input type="text" name="first-name" id="first-name" placeholder="John" />
+					</div>
+	
+					<div>
+						<label for="name">Last Name</label>
+						<input type="text" name="last-name" id="last-name" placeholder="Doe" />
+					</div>
+				</div>
+	
+				<label for="email">Email Address</label>
+				<input type="email" name="email" id="email" placeholder="john@example.com" required />
+	
+				<label for="message">Message</label>
+				<textarea name="message" id="message" placeholder="Hi There..."></textarea>
+	
+				<input type="submit" value="Send Message" />
+			</form>
+		</div>
+	</section>

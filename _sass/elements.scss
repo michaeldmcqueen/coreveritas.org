@@ -1,0 +1,107 @@
+html {
+	background: $html-background-color;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'IBM Plex Sans', sans-serif;
+	overflow-x: hidden;
+}
+
+a {
+	color: $brand-color;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+h1 {
+	font-weight: 300;
+	font-size: 2.3rem;
+	margin: 0;
+}
+
+h2 {
+	font-weight: 300;
+	font-size: 2.2rem;
+	margin: 0 0 30px 0;
+}
+
+h3 {
+	font-size: 1.8rem;
+	margin: 0 0 20px 0;
+}
+
+h4 {
+	font-size: 1.5rem;
+	margin: 0 0 10px 0;
+}
+
+p, address, ul, ol, pre {
+	margin: 0 0 20px 0;
+}
+
+p, address, ul, ol {
+	font-size: 1.38rem;
+	color: #666;
+	font-weight: 300;
+	line-height: 1.6;
+}
+
+pre {
+	padding: 10px;
+	background: #eee;
+	border-radius: 2px;
+}
+
+.accent {
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	color: #1a8c96;
+}
+.accent:before {
+	content: '';
+	height: 8px;
+	width: 90%;
+	background: #1a8c9633;
+	position: absolute;
+	z-index: -1;
+	left: -3px;
+	bottom: 4px;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
