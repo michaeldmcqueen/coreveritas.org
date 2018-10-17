@@ -27,7 +27,7 @@ heading: Collaborators
 				  {% assign staff_members = site.staff_members | sort: 'order'  %}
 
 					{% for staff in staff_members %}
-						{% if staff.bod != Yes %}
+						{% if staff.bod == 'Yes' %}
 						<div class="bod-item cf">
 						  <img src="{{staff.image_path}}" />
 						 <div class="bod-details"> 
