@@ -24,7 +24,7 @@ heading: Collaborators
 			<p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff/" class="btn"><strong>&#9998;</strong>Manage BOD</a></p>
 				<h3 class="bod-section-title">Board of Directors</h3>
 				<div class="bod-grid cf">
-				  {% assign staff_members = site.staff_members  | sort:"order" %}
+				  {% assign staff_members = site.staff_members | sort: 'order'  %}
 
 					{% for staff in staff_members %}
 						{% if staff.bod != Yes %}
