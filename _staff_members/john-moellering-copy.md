@@ -1,9 +1,9 @@
 ---
-name: John Moellering
+name: Kris Peterson
 bod: 'Yes'
 position:
-image_path: /uploads/unnamed.jpg
-website: 'https://www.linkedin.com/in/johnmoelleringjr/'
-order: 2
+image_path: /uploads/IMG_4193 2.jpeg
+website: 'https://www.linkedin.com/in/kris-peterson-b1759528/'
+order: '4'
 ---
 
