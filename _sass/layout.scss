@@ -422,3 +422,32 @@ section {
     color: #fff;
 	}
 }
+
+
+
+.doc-page {
+ background: #fff;  
+}
+
+.doc-intro {
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+	@media #{$tablet} {
+	  grid-template-columns: 1.5fr 1fr;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
