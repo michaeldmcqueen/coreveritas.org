@@ -1,0 +1,65 @@
+---
+title: Let’s Talk About Rob
+heading: Join Us
+subtitle: >-
+  Help us grow Videos That Matter's content to reach communities all across the
+  country. Your donation allows us to inspire new thought, educate, and foster
+  connections within communities to optimize wellness of the mind, body, and
+  spirit. Through community collaboration, we believe we have the power to make
+  wellbeing a priority for every individual.
+---
+<section class="diagonal" style="padding-bottom: 0;">
+		<div class="container">
+<div class="paypal">
+	<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+	<input type="hidden" name="cmd" value="_s-xclick" />
+	<input type="hidden" name="hosted_button_id" value="XES3VE7RJVNUY" />
+	<input type="image" src="/images/donate.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+	<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+	</form>
+</div>
+</div>
+</section>
+
+<section class="diagonal calls-wrap join-us">
+		<div class="container container-wide calls">
+			<div class="one diagonal">
+				<div class="reverse-diagonal">
+					<img src="/images/Sponsor.png" />
+					<h3 class="editable accent">Become a Sponsor</h3>
+					<p class="editable">We want your input! Become a company sponsor of Core Communities to be a part of content creation and annual events that increase community awareness around wellness. Our sponsors are part of our family and we would love to welcome you on board as a contributing voice in our mission.</p>
+				</div>
+			</div>
+			<div class="two diagonal">
+				<div class="reverse-diagonal">
+					<img src="/images/Partner.png" />
+					<h3 class="editable accent">Become a Partner</h3>
+		<p class="editable">Looking for a way to showcase your company's contributions to community wellness? We want to help you get started! We curate custom content at reasonable prices to make sure your initiatives get the attention they deserve. After all, community wellness is a TEAM effort!</p>
+				</div>
+			</div>
+			<div class="three diagonal">
+				<div class="reverse-diagonal">
+					<img src="/images/Campaign.png" />
+					<h3 class="editable accent">Start a Campaign</h3>
+		<p class="editable">There are many conversations around wellness just waiting to happen! Submit your unique idea that addresses a community health need within your community and we will help bring it to life.  To speak with our team about your idea, connect with us below. </p>
+				</div>
+			</div>
+			
+		</div>
+		<a class="button join-us-btn" href="mailto:info@corecommunities.org?subject=Join Us">Contact Us</a>
+
+	</section>
+
+<section class="diagonal patterned">
+		<div class="container">
+      <h2>Our Sponsors</h2>
+			<p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong>Manage Sponsors</a></p>
+			<ul class="image-grid">
+				{% for member in site.staff_members %}
+				{% if member.bod == No %}
+					<li>{% include staff-member.html member=member %}</li>
+					{% endif %}
+				{% endfor %}
+			</ul>
+		</div>
+	</section>
