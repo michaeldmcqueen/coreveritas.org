@@ -441,6 +441,18 @@ section {
 
 
 
+.doc-gallery {
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+	@media #{$tablet} {
+	  grid-template-columns: 1fr 1fr;
+	}
+}
+
+
+
+
 
 
 
