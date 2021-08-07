@@ -474,8 +474,10 @@ section {
 
 .doc-director {
       display: grid;
-    grid-template-columns: 90px 1fr;
-    grid-gap: 2rem;
+
+    grid-template-columns: 70px 1fr;
+    grid-gap: 1rem;
+
     padding-top: 2rem;
     border-top: 1px solid #efefef;
     margin-top: 2rem;
