@@ -464,9 +464,9 @@ section {
 
 .video-container {
     margin-bottom: 2rem;
-    margin-top: -50px;
-  	@media #{$tablet} {
     margin-top: -150px;
+  	@media #{$tablet} {
+    margin-top: -350px;
 	}
 
 }
