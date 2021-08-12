@@ -455,7 +455,7 @@ section {
 .doc-gallery {
   display:grid;
   grid-template-columns: 1fr;
-  grid-gap: 2rem;
+  grid-gap: 1rem;
     padding-top: 2rem;
 
 	@media #{$tablet} {
@@ -466,8 +466,8 @@ section {
 .doc-gallery-2 {
   display:grid;
   grid-template-columns: 1fr;
-  grid-gap: 2rem;
-  padding-top: 2rem;
+  grid-gap: 1rem;
+  padding-top: 1rem;
 	@media #{$tablet} {
     grid-template-columns: .645fr  1fr;
 	}
