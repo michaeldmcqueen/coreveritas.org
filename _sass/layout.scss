@@ -434,7 +434,7 @@ section {
   grid-template-columns: 1fr;
   grid-gap: 2rem;
 	@media #{$tablet} {
-	  grid-template-columns: 2.5fr 1fr;
+	  grid-template-columns: 2.5fr 1.25fr;
 	}
 	img {
 	  max-width: 100% !important;
@@ -465,6 +465,7 @@ section {
   display:grid;
   grid-template-columns: 1fr;
   grid-gap: 2rem;
+  padding-top: 2rem;
 	@media #{$tablet} {
     grid-template-columns: .645fr  1fr;
 	}
