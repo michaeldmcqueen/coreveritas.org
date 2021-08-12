@@ -461,6 +461,15 @@ section {
 	}
 }
 
+.doc-gallery-2 {
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+	@media #{$tablet} {
+    grid-template-columns: .645fr  1fr;
+	}
+}
+
 
 .video-container {
     margin-bottom: 2rem;
