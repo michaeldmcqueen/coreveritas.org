@@ -456,6 +456,8 @@ section {
   display:grid;
   grid-template-columns: 1fr;
   grid-gap: 2rem;
+    padding-top: 2rem;
+
 	@media #{$tablet} {
     grid-template-columns: 1fr .645fr;
 	}
