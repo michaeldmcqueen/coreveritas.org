@@ -433,7 +433,7 @@ section {
   display:grid;
   grid-template-columns: 1fr;
   grid-gap: 2rem;
-	@media #{$tablet} {
+	@media #{$desktop} {
 	  grid-template-columns: 2.5fr 1.25fr;
 	}
 	img {
