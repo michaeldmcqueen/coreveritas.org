@@ -453,22 +453,27 @@ section {
 
 
 .doc-gallery {
-  display:grid;
+    display:none;
+
   grid-template-columns: 1fr;
   grid-gap: 1rem;
-    padding-top: 2rem;
 
 	@media #{$tablet} {
+	  display:grid;
+	      padding-top: 2rem;
+
     grid-template-columns: 1fr .645fr;
 	}
 }
 
 .doc-gallery-2 {
-  display:grid;
+  display:none;
   grid-template-columns: 1fr;
   grid-gap: 1rem;
   padding-top: 1rem;
 	@media #{$tablet} {
+	  display:grid;
+	  padding-top: 1rem;
     grid-template-columns: .645fr  1fr;
 	}
 }
