@@ -506,7 +506,30 @@ section {
   
 }
 
+.doc-gallery-mobile {
+  display:grid;
+  grid-template-columns:  1fr;
+    padding-top: 1rem;
 
+  grid-gap: 1rem;
+
+}
+
+@media (min-width: 768px) {
+  .mobile-only {
+    display:none !important;
+  }
+}
+@media (max-width: 767px) {
+  .tablet-up {
+    display:none !important;
+  }
+}
+.paypal.mobile-only {
+  padding: 1.5rem 0 0;
+      border-bottom: 1px solid #efefef;
+
+}
 
 
 
