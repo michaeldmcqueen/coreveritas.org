@@ -458,7 +458,7 @@ section {
   grid-template-columns: 1fr;
   grid-gap: 1rem;
 
-	@media #{$tablet} {
+	@media #{$desktop} {
 	  display:grid;
 	      padding-top: 2rem;
 
@@ -470,7 +470,7 @@ section {
   display:none;
   grid-template-columns: 1fr;
   grid-gap: 1rem;
-	@media #{$tablet} {
+	@media #{$desktop} {
 	  display:grid;
 	  padding-top: 1rem;
     grid-template-columns: .645fr  1fr;
