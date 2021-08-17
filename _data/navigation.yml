@@ -1,7 +1,9 @@
 links:
-- name: About
-  link: /
-- name: Collaborators
-  link: /collaborators/
-- name: Join Us
-  link: /join-us/
+  - name: About
+    link: /
+  - name: Let’s Talk About Rob
+    link: https://corecommunities.org/lets-talk-about-rob/
+  - name: Collaborators
+    link: /collaborators/
+  - name: Join Us
+    link: /join-us/
