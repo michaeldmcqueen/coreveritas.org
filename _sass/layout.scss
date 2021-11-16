@@ -536,7 +536,17 @@ section {
 }
 
 
-
+.our-team {
+  .our-team-wrap {
+      padding-top: 4%;
+      	@media #{$tablet} {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 3rem;
+        padding-top: 4%;
+	    }
+  }
+}
 
 
 
